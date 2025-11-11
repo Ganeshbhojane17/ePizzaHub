@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{0D2E3630-19CC-4937-A6B0-C6702A8A4494}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Test", "Unit Test", "{C31BBE70-E6C9-4E86-9A50-9AB2E583DEB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizzahub.UI", "ePizzahub.UI\ePizzahub.UI.csproj", "{FB2D1625-E1C8-4DAB-8512-0B1D1B0E24B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{B85CDC56-6344-4883-830C-FE1DBEB983B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F50FEEF1-B20D-48D6-8A66-4237B8A1277D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizahub.API", "ePizahub.API\ePizahub.API.csproj", "{D1547967-1B08-43F6-9D52-53FF61AA192E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizzahub.Infrastructure", "ePizzahub.Infrastructure\ePizzahub.Infrastructure.csproj", "{6D80CFD9-259B-4359-958C-58A714B4BC75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4F8B272D-1647-45F6-AD5A-CE21FBABBA2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizzahub.Domain", "ePizzahub.Domain\ePizzahub.Domain.csproj", "{3C0AAB31-A1C7-4378-9DB6-985025038EBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{65CA2011-37F9-4966-9CBA-4F3635E4600B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePizzahub.Applicationn", "ePizzahub.Applicationn\ePizzahub.Applicationn.csproj", "{318356F4-29AD-4BF3-A496-7EBA893827C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SqlScripts", "SqlScripts", "{8E98B2B5-E985-45AB-85B5-EC06F02903F2}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\ganub\Downloads\RefreshTokenAndCartController (1)20251017195722\ePizza\SqlScripts\Schema.sql = C:\Users\ganub\Downloads\RefreshTokenAndCartController (1)20251017195722\ePizza\SqlScripts\Schema.sql
+		C:\Users\ganub\Downloads\RefreshTokenAndCartController (1)20251017195722\ePizza\SqlScripts\SeedData.sql = C:\Users\ganub\Downloads\RefreshTokenAndCartController (1)20251017195722\ePizza\SqlScripts\SeedData.sql
+		C:\Users\ganub\Downloads\RefreshTokenAndCartController (1)20251017195722\ePizza\SqlScripts\UserToken.sql = C:\Users\ganub\Downloads\RefreshTokenAndCartController (1)20251017195722\ePizza\SqlScripts\UserToken.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB2D1625-E1C8-4DAB-8512-0B1D1B0E24B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2D1625-E1C8-4DAB-8512-0B1D1B0E24B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2D1625-E1C8-4DAB-8512-0B1D1B0E24B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2D1625-E1C8-4DAB-8512-0B1D1B0E24B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1547967-1B08-43F6-9D52-53FF61AA192E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1547967-1B08-43F6-9D52-53FF61AA192E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1547967-1B08-43F6-9D52-53FF61AA192E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1547967-1B08-43F6-9D52-53FF61AA192E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D80CFD9-259B-4359-958C-58A714B4BC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D80CFD9-259B-4359-958C-58A714B4BC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D80CFD9-259B-4359-958C-58A714B4BC75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D80CFD9-259B-4359-958C-58A714B4BC75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C0AAB31-A1C7-4378-9DB6-985025038EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0AAB31-A1C7-4378-9DB6-985025038EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0AAB31-A1C7-4378-9DB6-985025038EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0AAB31-A1C7-4378-9DB6-985025038EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318356F4-29AD-4BF3-A496-7EBA893827C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318356F4-29AD-4BF3-A496-7EBA893827C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318356F4-29AD-4BF3-A496-7EBA893827C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318356F4-29AD-4BF3-A496-7EBA893827C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB2D1625-E1C8-4DAB-8512-0B1D1B0E24B8} = {0D2E3630-19CC-4937-A6B0-C6702A8A4494}
+		{B85CDC56-6344-4883-830C-FE1DBEB983B8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F50FEEF1-B20D-48D6-8A66-4237B8A1277D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D1547967-1B08-43F6-9D52-53FF61AA192E} = {B85CDC56-6344-4883-830C-FE1DBEB983B8}
+		{6D80CFD9-259B-4359-958C-58A714B4BC75} = {F50FEEF1-B20D-48D6-8A66-4237B8A1277D}
+		{4F8B272D-1647-45F6-AD5A-CE21FBABBA2B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3C0AAB31-A1C7-4378-9DB6-985025038EBD} = {4F8B272D-1647-45F6-AD5A-CE21FBABBA2B}
+		{65CA2011-37F9-4966-9CBA-4F3635E4600B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{318356F4-29AD-4BF3-A496-7EBA893827C0} = {65CA2011-37F9-4966-9CBA-4F3635E4600B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD850243-1EA6-4302-8A1E-1EA4E74B3555}
+	EndGlobalSection
+EndGlobal
